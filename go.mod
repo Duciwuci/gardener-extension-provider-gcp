@@ -9,7 +9,7 @@ require (
 	github.com/ahmetb/gen-crd-api-reference-docs v0.3.0
 	github.com/coreos/go-systemd/v22 v22.5.0
 	github.com/gardener/etcd-druid v0.22.2
-	github.com/gardener/gardener v1.97.1
+	github.com/gardener/gardener v1.98.4
 	github.com/gardener/machine-controller-manager v0.53.0
 	github.com/go-logr/logr v1.4.2
 	github.com/onsi/ginkgo/v2 v2.19.0
@@ -19,7 +19,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	go.uber.org/atomic v1.11.0
 	go.uber.org/mock v0.4.0
-	golang.org/x/exp v0.0.0-20240604190554-fc45aab8b7f8
+	golang.org/x/exp v0.0.0-20240613232115-7f521ea00fb8
 	golang.org/x/oauth2 v0.21.0
 	golang.org/x/tools v0.23.0
 	google.golang.org/api v0.187.0
@@ -46,6 +46,7 @@ require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/Masterminds/sprig/v3 v3.2.3 // indirect
+	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
