@@ -112,6 +112,7 @@ func (w *workerDelegate) generateMachineConfig(ctx context.Context) error {
 	for _, pool := range w.worker.Spec.Pools {
 		zoneLen := int32(len(pool.Zones))
 
+		// TODO(duciwuci): Add ProviderConfig
 		workerPoolHash, err := worker.WorkerPoolHash(pool, w.cluster, nil, nil)
 		if err != nil {
 			return err
